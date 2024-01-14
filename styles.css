@@ -2,12 +2,11 @@
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+    color: #fff;
 }
 
 header {
-    background-color: #007BFF;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -29,21 +28,52 @@ nav {
     }
 
         nav a:hover {
-            color: #0056b3;
+            color: #007BFF;
         }
+
+#hero {
+    position: relative;
+    height: 400px;
+    background: url('Ine.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0) 100%), url('right-image.jpg') no-repeat right center fixed;
+    background-size: cover;
+}
+
+.hero-content {
+    z-index: 1;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 
 section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2 {
-    text-align: center;
-    font-weight: bold;
 }
 
 h2 {
