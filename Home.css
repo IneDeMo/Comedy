@@ -44,7 +44,7 @@
   letter-spacing: 1px;
   box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
   border-style: solid;
-  margin: 61px 126px 0 auto;
+  margin: 61px 126px 0 120px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -54,7 +54,7 @@
   font-size: 1.125rem;
   letter-spacing: 1px;
   box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
-  margin: 20px 163px 0 auto;
+  margin: 20px 163px 0 150px;
 }
 
 .u-section-1 .u-btn-3 {
@@ -64,7 +64,7 @@
   font-size: 1.125rem;
   letter-spacing: 1px;
   box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
-  margin: 20px 115px 0 auto;
+  margin: 20px 115px 0 100px;
   padding: 10px 8px 10px 7px;
 }
 
@@ -72,10 +72,9 @@
   background-image: none;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 1.125rem;
   letter-spacing: 1px;
   box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
-  margin: 20px 100px 0 auto;
+  margin: 20px 100px 0 100px;
   padding: 10px 12px 10px 10px;
 }
 
@@ -83,10 +82,9 @@
   background-image: none;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 1.125rem;
   letter-spacing: 1px;
   box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
-  margin: 20px 89px 0 auto;
+  margin: 20px 89px 0 100px;
   padding: 10px 15px 10px 14px;
 }
 
@@ -97,9 +95,11 @@
   font-size: 1.125rem;
   letter-spacing: 1px;
   box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
-  margin: 20px 155px 0 auto;
+  margin: 20px 155px 0 150px;
   padding: 10px 12px 10px 10px;
 }
+
+/*#region CSS Desktop*/
 
 @media (max-width: 1199px) {
    .u-section-1 {
@@ -167,6 +167,9 @@
   }
 }
 
+/*#endregion*/
+
+/*#region CSS Laptop*/
 @media (max-width: 991px) {
    .u-section-1 {
     min-height: 1066px;
@@ -227,6 +230,10 @@
   }
 }
 
+/*#endregion*/
+
+/*#region CSS Samsung A21s*/
+
 @media (max-width: 767px) {
    .u-section-1 {
     min-height: 2042px;
@@ -241,10 +248,9 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 3.75rem;
+    font-size: 3.2rem;
     margin-top: 84px;
     margin-right: -175px;
-    margin-left: 65px;
   }
 
   .u-section-1 .u-text-2 {
@@ -256,21 +262,21 @@
   .u-section-1 .u-btn-1 {
     margin-top: 50px;
     margin-right: auto;
-    margin-left: 36px;
+    margin-left: 55px;
     padding-right: 13px;
     padding-left: 11px;
   }
 
   .u-section-1 .u-btn-2 {
     margin-right: auto;
-    margin-left: 55px;
+    margin-left: 75px;
     padding-right: 13px;
     padding-left: 12px;
   }
 
   .u-section-1 .u-btn-3 {
     margin-right: auto;
-    margin-left: 5px;
+    margin-left: 25px;
   }
 
   .u-section-1 .u-btn-4 {
@@ -294,6 +300,10 @@
     margin-left: 53px;
   }
 }
+
+/*#endregion*/
+
+
 
 @media (max-width: 575px) {
    .u-section-1 {
@@ -393,4 +403,68 @@
     margin-bottom: 29px;
   }
 }.navmenu {
+}
+
+
+
+@media (max-width: 340px) {
+    .u-section-1 {
+        min-height: 1216px;
+    }
+
+        .u-section-1 .u-layout-wrap-1 {
+            margin-top: -7px;
+            margin-bottom: 60px;
+        }
+
+        .u-section-1 .u-layout-cell-1 {
+            min-height: 1108px;
+        }
+
+        .u-section-1 .u-text-1 {
+            line-height: 1;
+            width: auto;
+            margin-top: 71px;
+            margin-right: -239px;
+            margin-left: 56px;
+        }
+
+        .u-section-1 .u-text-2 {
+            font-size: 3.75rem;
+            width: auto;
+            margin-top: 108px;
+            margin-right: -79px;
+            margin-left: 79px;
+        }
+
+        .u-section-1 .u-btn-1 {
+            --radius: 4px;
+            margin-top: 52px;
+            margin-right: 57px;
+            padding: 8px 36px 9px 35px;
+        }
+
+        .u-section-1 .u-btn-2 {
+            --radius: 4px;
+            border-style: solid;
+            margin-right: 106px;
+            padding: 8px 20px 9px;
+        }
+
+        .u-section-1 .u-btn-3 {
+            margin-right: 53px;
+        }
+
+        .u-section-1 .u-btn-4 {
+            margin-right: 9px;
+        }
+
+        .u-section-1 .u-btn-5 {
+            margin-right: 27px;
+        }
+
+        .u-section-1 .u-btn-6 {
+            font-size: 1rem;
+            margin-right: 87px;
+        }
 }
