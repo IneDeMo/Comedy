@@ -1028,8 +1028,6 @@ ol {
 .u-btn {
   display: inline-block;
   display: table;
-  TODO maye need another solution for negative marin
-  cursor: pointer;
   color: inherit;
   font-size: inherit;
   font-family: inherit;
@@ -1045,7 +1043,6 @@ ol {
   margin: 0;
   -webkit-text-decoration-skip: objects;
   font-style: initial;
-  white-space: nowrap;
   -webkit-user-select: none;
       -ms-user-select: none;
           user-select: none;
