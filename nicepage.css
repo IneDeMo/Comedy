@@ -25689,9 +25689,9 @@ begin-variables color
   color: #ffffff;
 }
 .u-body {
-  color: #111111;
-  background-color: #ffffff;
-  --effect-scale: 1.1;
+    color: #111111;
+    background-color: #111111;
+    --effect-scale: 1.1;
 }
 end-variables color
 begin-variables font
